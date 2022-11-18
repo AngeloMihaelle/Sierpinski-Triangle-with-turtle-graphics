@@ -20,3 +20,8 @@ While runnig the script will ask, trough command line, to tweak the parameters t
 - Resolution: It's the size of the window, but it's a square so only needs one integer
 - Speed: Turtle movement speed, 1 to 1o beeing 1 slow and 10 is fast, but if you put 0 it will go as fast as possible
 
+## Run 
+It's the same way as running any other python script, just open your terminal, or cmd, and move to tne directory with "sierpinski.py" file in it, then just type "python sierpinski.py" and after asking you the parameters of the previous section Veronica (the turtle) will star drawing it. 
+
+## Results
+
