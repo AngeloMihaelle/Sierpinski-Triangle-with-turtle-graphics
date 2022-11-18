@@ -26,10 +26,11 @@ It's the same way as running any other python script, just open your terminal, o
 ## Results
 Sierpinski triangle (low recusrion depth) <br>
 <img src="sierpinski_low.png" align="center" />
+<br><br>
 With higher number of recursion level we archive this results (50 recLvl)
 <br><br>
-Black<br>
+### Black<br>
 <img src="sierpinski.png" align="center" />
 <br><br>
-Rainbow <br>
+### Rainbow <br>
 <img src="sierpinski_rainbow.png" align="center" />
