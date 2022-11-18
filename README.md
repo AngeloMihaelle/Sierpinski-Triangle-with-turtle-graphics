@@ -35,3 +35,8 @@ With higher number of recursion level we archive this results (50 recLvl)
 
 ### Rainbow
 <img src="sierpinski_rainbow.png" align="center" />
+
+
+## Future improvements
+
+At this point the performance of this recursive algorithm is a bit poor, this is mainly because whe drawing a new triangle it also pass over lines that were already painted, so by doing only the ones that are left we can increase performance, seeing it the other way around, we now just need to make the inverted triangles anter the first one is made. 
