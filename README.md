@@ -32,5 +32,6 @@ With higher number of recursion level we archive this results (50 recLvl)
 ### Black<br>
 <img src="sierpinski.png" align="center" />
 <br><br>
-### Rainbow<br>
+
+### Rainbow
 <img src="sierpinski_rainbow.png" align="center" />
