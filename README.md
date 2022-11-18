@@ -24,9 +24,12 @@ While runnig the script will ask, trough command line, to tweak the parameters t
 It's the same way as running any other python script, just open your terminal, or cmd, and move to tne directory with "sierpinski.py" file in it, then just type "python sierpinski.py" and after asking you the parameters of the previous section Veronica (the turtle) will star drawing it. 
 
 ## Results
+Sierpinski triangle (low recusrion depth) <br>
+<img src="sierpinski_low.png" align="center" />
 With higher number of recursion level we archive this results (50 recLvl)
 <br><br>
-Black
+Black<br>
 <img src="sierpinski.png" align="center" />
-Rainbow 
+<br><br>
+Rainbow <br>
 <img src="sierpinski_rainbow.png" align="center" />
