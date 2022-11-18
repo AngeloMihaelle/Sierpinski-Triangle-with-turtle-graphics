@@ -24,7 +24,7 @@ def drawTriangle(leng:list, color:list,start:tuple, veronica:turtle,recLvl:int):
             veronica.forward(leng)
             angle += 120
             veronica.setheading(angle)
-        turtle.update()
+        turtle.Screen().update()
         #It call itself 3 times making the 3 inner triangles. 
         drawTriangle(leng/2, color,start, veronica,recLvl-1)
         drawTriangle(leng/2, color,(start[0]+leng/2 ,start[1]), veronica, recLvl-1)
@@ -43,10 +43,12 @@ def main():
     drawing_area.setup(width=res, height=res)
     drawing_area.title("Sierpinski Triangle")
     if(color == 1): drawing_area.bgcolor("black")
-    if(animation == 2): turtle.tracer(0,0)
-
-    img = tkinter.Image("photo", file="sierpinski.png")
-    turtle._Screen._root.iconphoto(True, img)
+    if(animation == 2): turtle.Screen().tracer(0,0)
+    try:
+        img = tkinter.Image("photo", file="sierpinski.png")
+        turtle._Screen._root.iconphoto(True, img)
+    except:
+        print("no \"sierpinski.png\" image found for icon")
     veronica = turtle.Turtle() # My turtle's name is Veronica 🐢
    
     
@@ -58,7 +60,7 @@ def main():
     start = (-1*leng/2,-1*leng/2 + vlen)
     drawTriangle(leng, color, start, veronica,recLvl)
     veronica.hideturtle()
-    turtle.update()
+    turtle.Screen().update()
     turtle.done()
     
     
