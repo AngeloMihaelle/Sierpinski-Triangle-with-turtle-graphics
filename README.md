@@ -14,7 +14,7 @@ All of them are in the standard library, but sometimes one (mostly tkinter) migh
 
 ## Parameters 
 While running the script will ask, trough command line, to tweak the parameters to run the Sierpinski's triangle, all of them should be a single integer, and are the following:
-- Recursion level: It's the depth of the recursion. (More than 10 might take several minutes since this algorithm complexity is $O(3^n)$)
+- Recursion level: It's the depth of the recursion. (More than 10 might take several minutes since this algorithm complexity is $O(3^n)$ )
 - Color Mode: The color of the lines for each triangle, in black are all black, but in rainbow each triangle has a different color randomly choose.
 - Animation mode: If it's off the "turtle" will not take time to turn, and the screen will only be updated after each triangle it's finished.
 - Resolution: It's the size of the window, but it's a square so only needs one integer
