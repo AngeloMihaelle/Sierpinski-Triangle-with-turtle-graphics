@@ -1,3 +1,5 @@
+<img src="./img/sierpinski_ico.png" align="right" /> 
+
 # Sierpinski Triangle with turtle graphics [![Awesome](https://cdn.jsdelivr.net/gh/sindresorhus/awesome@d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome#readme) 
 > A project made for fun <br>
 > A simple python program that allows you to create a Sierpinski triangle fractal using a recursive definition and turtle graphics
@@ -51,4 +53,4 @@ With higher number of recursion level we archive this results (50 recLvl)
 
 ## Future improvements
 
-At this point the performance of this recursive algorithm is a bit poor, this is mainly because whe drawing a new triangle it also pass over lines that were already painted, so by doing only the ones that are left we can increase performance, seeing it the other way around, we now just need to make the inverted triangles after the first one is made. 
+At this point the performance of this recursive algorithm is a bit poor, this is mainly because when drawing a new triangle it also pass over lines that were already painted, so by doing only the ones that are left we can increase performance, seeing it the other way around, we now just need to make the inverted triangles after the first one is made. 
