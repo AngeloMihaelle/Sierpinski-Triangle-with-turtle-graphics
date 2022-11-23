@@ -15,7 +15,7 @@ def drawTriangle(leng:list, color:list,start:tuple, veronica:turtle,recLvl:int):
     '''
     veronica.penup()
     veronica.goto(start)
-    veronica.pencolor(random.choice(color))
+    veronica.pencolor(random.choice(color)) # Random color  for the triangle
     angle = 0
     if recLvl > 0:
         veronica.pendown()
@@ -38,7 +38,6 @@ def main():
     animation = int(input("Enter the animation mode (1 for animation, 2 for no animation): "))
     res = int(input("Enter the resolution (n * n it is a square so just one integer)): "))
     speed = int(input("Enter the speed (1 - 10 where 10 is fast or 0 for the fastest movement ): "))
-    
     drawing_area = turtle.Screen()
     drawing_area.setup(width=res, height=res)
     drawing_area.title("Sierpinski Triangle")
@@ -62,7 +61,9 @@ def main():
     veronica.hideturtle()
     turtle.Screen().update()
     turtle.done()
+    drawing_area.exitonclick()                                                                                                              
     
     
 if __name__ == '__main__':
     main()
+
